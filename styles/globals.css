@@ -38,6 +38,13 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+  --primary-dark-color: #111111;
+  --secondary-dark-color: #1E2328;
+  --primary-border-color: #42331A;
+  --primary-gold-color: #F0E6D2;
+  --secondary-gold-color: #C89B3C;
+  --primary-grey-color: #3C3C41;
+  --primary-aqua-color: #1DA5B4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -86,13 +93,9 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url('../assets/Fondo.png');
+  background-position: center;
+  background-size: cover;
 }
 
 a {

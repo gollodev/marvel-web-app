@@ -1,0 +1,69 @@
+.character_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+}
+
+.modal_content {
+  background-image: url('../../assets/Fondo-niveles.png');
+  background-position: center;
+  background-size: cover;
+  color: var(--primary-gold-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 450px;
+  border: 1px solid var(--primary-grey-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.modal_content_avatar {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  background-size: cover;
+  .modal_content_avatar_img {
+    border-radius: 100%;
+  }
+}
+
+.modal_content img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.modal_content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modal_content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.modal_content button {
+  padding: 8px 16px;
+  background-color: var(--secondary-gold-color);
+  color: var(--primary-dark-color);
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

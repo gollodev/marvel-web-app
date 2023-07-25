@@ -1,0 +1,27 @@
+.icon_button {
+  background-color: var(--secondary-gold-color);
+  width: 35px;
+  height: 35px;
+  padding: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  color: var(--primary-dark-color);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_button_disabled {
+  background-color: #c89b3c7a;
+  width: 35px;
+  height: 35px;
+  padding: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  color: var(--primary-dark-color);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

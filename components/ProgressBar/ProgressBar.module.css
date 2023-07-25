@@ -1,0 +1,35 @@
+.progress_bar {
+  width: 100%;
+  height: 30px;
+  background-color: #D9D9D9;
+  border-radius: 1px;
+  overflow: hidden;
+  position: relative;
+  transform: skew(-20deg);
+  border: 5px solid var(--secondary-dark-color);
+  box-shadow: 0px 0px 8px 0px rgba(200,155,60,1);
+}
+
+.progress_bar_inner {
+  height: 100%;
+  background: radial-gradient(49.94% 49.16% at 49.93% -15%, #FFFFFF 0%, #D2D2D2 10%, #9B9B9B 23%, #6B6B6B 37%, #444444 50%, #262626 63%, #111111 76%, #040404 88%, #000000 100%);
+  background-blend-mode: color-dodge;
+  background-color: var(--primary-aqua-color);
+  border-radius: 1px;
+  transition: width 0.3s ease-in-out;
+}
+
+.progress_bar_labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: 2px solid var(--primary-dark-color);
+}
+
+.progress_bar_label_goal {
+  color: var(--secondary-gold-color);
+}
+.progress_bar_label {
+  flex: 1;
+}
